@@ -18,7 +18,6 @@ jobs:
     - name: npm install
       run: |
         npm install
-        npm test
       env:
         CI: true
     - name: mingine
