@@ -20,7 +20,7 @@ jobs:
         npm install
       env:
         CI: true
-    - name: mingine
+    - name: Use mingine
       uses: cutenode/action-mingine@master
       with:
         path: './'
