@@ -21,6 +21,6 @@ jobs:
       env:
         CI: true
     - name: Run mingine
-      uses: cutenode/action-mingine@master
+      uses: cutenode/action-mingine@62cd64b3f1699e8c39df83aece35e018ac413ea7
       with:
         path: './'
