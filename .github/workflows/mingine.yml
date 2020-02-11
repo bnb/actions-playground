@@ -19,7 +19,7 @@ jobs:
       run: npm install
       env:
         CI: true
-    - name: Run mingine
+    - name: Run mingine check
       uses: cutenode/action-mingine@dev
       with:
         path: './'
