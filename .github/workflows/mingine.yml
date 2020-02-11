@@ -16,12 +16,10 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: npm install
-      run: |
-        npm install
-        npm test
+      run: npm install
       env:
         CI: true
-    - name: mingine
-      uses: cutenode/action-mingine
+    - name: Run mingine
+      uses: cutenode/action-mingine@dev
       with:
         path: './'
