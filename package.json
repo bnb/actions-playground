@@ -9,7 +9,7 @@
   "keywords": [],
   "engines": {
     "node": "12.0.0"
-  }
+  },
   "author": "Tierney Cyren <hello@bnb.im>",
   "license": "MIT"
 }
