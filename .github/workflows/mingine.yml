@@ -23,5 +23,3 @@ jobs:
       uses: cutenode/action-mingine@dev
       with:
         path: './'
-    - name: Fail the Build
-      uses: cutenode/action-always-fail
