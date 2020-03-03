@@ -1,9 +1,10 @@
-const http = require('http');
+const express = require('express')
 
-const requestListener = function (req, res) {
-  res.writeHead(200);
-  res.end('Hello, World!');
-}
+const app = express()
 
-const server = http.createServer(requestListener);
-server.listen(8080);
+app.get('/', (request, response) => {
+  response.send('Success!')
+  response.end()
+})
+
+app.listen(8080, () => console.log('running!!!'))

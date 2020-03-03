@@ -8,5 +8,12 @@
   },
   "keywords": [],
   "author": "Tierney Cyren <hello@bnb.im>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "standard": "^14.3.1"
+  }
 }
