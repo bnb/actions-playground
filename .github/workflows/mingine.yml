@@ -24,4 +24,4 @@ jobs:
       with:
         path: './'
     - name: Fail the Build
-      uses: cutenode/action-always-fail
+      uses: cutenode/action-always-fail@master
